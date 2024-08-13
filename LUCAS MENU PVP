@@ -1,0 +1,41 @@
+local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/fluxlib.txt")()
+
+local win = Flux:Window("LUCAS MENU", "PVP", Color3.fromRGB(237, 12, 12), Enum.KeyCode.LeftControl)
+local tab = win:Tab("Menu", "http://www.roblox.com/asset/?id=6023426915")
+tab:Button("Aimbot", "Aperte o botao direito do mause para grudar na cabeça do seu openente.", function(t)
+Flux:Notification("Aimbot ativado com sucesso!", "Ok.")
+print(loadstring(game:HttpGet("https://raw.githubusercontent.com/webcriamanca/LucasMenu-aimbot-/main/LucasMenu%20(aimbot)",true))())
+end)
+
+tab:Label("LUCAS MENU / APERTE CTRL PARA FECHAR/ABRIR O MENU")
+tab:Line()
+
+tab:Button("ESP", "MELHOR ESP DO MENU", function(t)
+Flux:Notification("ESP ativado com sucesso!", "Ok.")
+print(loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua",true))())
+end)
+
+tab:Button("SPEED", "MENU DE SPEED", function(t)
+Flux:Notification("ativado com sucesso!", "Ok.")
+print(loadstring(game:HttpGet("https://pastebin.com/raw/1BEgf70g",true))())
+end)
+
+tab:Button("INVISIBLE", "Voce recebera um tool.", function(t)
+Flux:Notification("ativado com sucesso!", "Ok.")
+print(loadstring(game:HttpGet("https://pastebin.com/raw/uUtRsAX5"))())
+end)
+
+tab:Button("JUMP", "VOCE TERA UM INF JUMP", function(t)
+Flux:Notification("ativado com sucesso!", "Ok.")
+print(loadstring(game:HttpGet("https://pastebin.com/raw/1UmLspx5",true))())
+end)
+
+tab:Button("NOCLIP", "MENU DE NOCLIP", function(t)
+Flux:Notification("ativado com sucesso!", "Ok.")
+print(loadstring(game:HttpGet("https://raw.githubusercontent.com/webcriamanca/Noclip/main/noclip",true))())
+end)
+
+tab:Button("SILENT AIM (MENU)", "MENU DE AIMBOT.", function(t)
+Flux:Notification("ativado com sucesso!", "Ok.")
+print(loadstring(game:HttpGet("https://raw.githubusercontent.com/Averiias/Universal-SilentAim/main/main.lua",true))())
+end)
