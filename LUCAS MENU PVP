@@ -35,7 +35,7 @@ Flux:Notification("ativado com sucesso!", "Ok.")
 print(loadstring(game:HttpGet("https://raw.githubusercontent.com/webcriamanca/Noclip/main/noclip",true))())
 end)
 
-tab:Button("INFINITY YIELD)", "NFINITY YIELD COM MUITAS FUNÇAO.", function(t)
+tab:Button("INFINITY YIELD)", "INFINITY YIELD COM MUITAS FUNÇAO.", function(t)
 Flux:Notification("ativado com sucesso!", "Ok.")
 print(loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))())
 end)
